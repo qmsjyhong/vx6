@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+    <title>V-Can</title>
+    <script src="static/index.js?v=1.1.1" type="text/javascript" charset="utf-8"></script>
+    <script>
+      var IP = 'http://10.20.2.210:8077';
+      const TITLE = 'title';
+      const INPUT_SOURCE_LIST = 'InputSourceList';
+      const WIN_LIST = 'WinList';
+      const CUR_INPUT_SOURCE = 'curInputSource';
+      const WIN_SELECTED = 'winSelected';
+      const SCENE_LIST = 'SceneList';
+      const SCENE_SELECT = 'SceneSelect';
+      const SCENE_CUR = 'SceneCur';
+      (function() {
+        // IP = window.Android.getIp();
+      })();
+
+      function clearStore() {
+        window.localStorage.clear();
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+
+</html>

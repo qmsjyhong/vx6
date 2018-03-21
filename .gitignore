@@ -1,0 +1,6 @@
+/moduleList.txt
+/*.map
+/.project
+node_modules/
+*.log
+dist/
